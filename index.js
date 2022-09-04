@@ -169,7 +169,7 @@ function clickHandler(e){
     }
     }
     else {
-        outputBox.innerText = "Please enter date to show results.";
+        outputDiv.innerText = "Please enter date to show results.";
     }
 
 }
