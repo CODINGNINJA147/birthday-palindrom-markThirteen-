@@ -167,6 +167,8 @@ function clickHandler(e){
         let [counter, nextDate] = getNextPalindromeDate(date)
         outputDiv.innerText = `The next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${counter} days 😐`
     }
+    else {
+        outputBox.innerText = "Please enter date to show results.";
     }
 
 }
